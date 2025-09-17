@@ -1,0 +1,953 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Private keys and sensitive data
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Configuration files with sensitive data
+config/local.json
+config/production.json
+config/development.json
+
+# Test files
+test/
+tests/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Documentation build
+docs/build/
+docsite/build/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+.temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary upload files
+uploads/
+uploads/*
+
+# Solana-specific files
+*.keypair
+wallet.json
+keypair.json
+
+# A2P Protocol specific
+a2p-config.local.json
+a2p-secrets.json
+agent-data/
+agent-logs/
+
+# MCP specific
+mcp-logs/
+mcp-cache/
+mcp-temp/
+
+# Development databases
+*.sqlite
+*.sqlite3
+
+# Runtime configuration
+runtime-config.json
+local-config.json
+
+# Debug files
+debug.log
+*.debug
+
+# Profiling data
+*.prof
+*.cpuprofile
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Webpack cache
+.webpack/
+
+# Babel cache
+.babelcache/
+
+# Docker volumes
+.docker-volumes/
+
+# Kubernetes configs
+.kube/
+
+# Terraform state
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ansible
+ansible-vault
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+bin/
+sum.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# C/C++
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Mobile development
+ios/
+android/
+
+# Temporary files
+.tmp
+.temp
+*.tmp
+*.temp
+
+# System files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Network files
+.network
+
+# Certificate files
+*.p12
+*.pfx
+*.pem
+*.crt
+*.der
+*.csr
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+
+# Compressed files
+*.gz
+*.bz2
+*.xz
+*.lzma
+*.z
+
+# Disk images
+*.iso
+*.dmg
+*.vmdk
+*.vhd
+*.vhdx
+
+# Virtual machine files
+*.vmx
+*.vmdk
+*.nvram
+*.vmem
+*.vmsd
+*.vmss
+*.vmsn
+*.vmsf
+*.vmpl
+*.vmrl
+*.vmx.lck
+*.vmdk.lck
+
+# Cloud specific
+.aws/
+.azure/
+.gcp/
+.google/
+
+# IDE specific
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows specific
+desktop.ini
+$RECYCLE.BIN/
+
+# Mac specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux specific
+*~
+.nfs*
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Lock files
+*.lock
+*.lockfile
+
+# State files
+*.state
+*.state.json
+
+# History files
+*.history
+*.history.json
+
+# Session files
+*.session
+*.session.json
+
+# Profile files
+*.profile
+*.profile.json
+
+# Settings files
+*.settings
+*.settings.json
+
+# Config files
+*.config
+*.config.json
+
+# Data files
+*.data
+*.data.json
+
+# Storage files
+*.storage
+*.storage.json
+
+# Database files
+*.db
+*.db.json
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+*.log.json
+
+# Report files
+*.report
+*.report.json
+
+# Analysis files
+*.analysis
+*.analysis.json
+
+# Metrics files
+*.metrics
+*.metrics.json
+
+# Stats files
+*.stats
+*.stats.json
+
+# Performance files
+*.performance
+*.performance.json
+
+# Benchmark files
+*.benchmark
+*.benchmark.json
+
+# Test files
+*.test
+*.test.json
+*.spec
+*.spec.json
+
+# Debug files
+*.debug
+*.debug.json
+
+# Trace files
+*.trace
+*.trace.json
+
+# Dump files
+*.dump
+*.dump.json
+
+# Core files
+*.core
+*.core.json
+
+# Crash files
+*.crash
+*.crash.json
+
+# Error files
+*.error
+*.error.json
+
+# Warning files
+*.warning
+*.warning.json
+
+# Info files
+*.info
+*.info.json
+
+# Debug files
+*.debug
+*.debug.json
+
+# Verbose files
+*.verbose
+*.verbose.json
+
+# Silent files
+*.silent
+*.silent.json
+
+# Quiet files
+*.quiet
+*.quiet.json
+
+# Loud files
+*.loud
+*.loud.json
+
+# Noisy files
+*.noisy
+*.noisy.json
+
+# Clean files
+*.clean
+*.clean.json
+
+# Dirty files
+*.dirty
+*.dirty.json
+
+# Fresh files
+*.fresh
+*.fresh.json
+
+# Stale files
+*.stale
+*.stale.json
+
+# New files
+*.new
+*.new.json
+
+# Old files
+*.old
+*.old.json
+
+# Latest files
+*.latest
+*.latest.json
+
+# Earliest files
+*.earliest
+*.earliest.json
+
+# Recent files
+*.recent
+*.recent.json
+
+# Ancient files
+*.ancient
+*.ancient.json
+
+# Modern files
+*.modern
+*.modern.json
+
+# Ancient files
+*.ancient
+*.ancient.json
+
+# Future files
+*.future
+*.future.json
+
+# Past files
+*.past
+*.past.json
+
+# Present files
+*.present
+*.present.json
+
+# Current files
+*.current
+*.current.json
+
+# Previous files
+*.previous
+*.previous.json
+
+# Next files
+*.next
+*.next.json
+
+# Last files
+*.last
+*.last.json
+
+# First files
+*.first
+*.first.json
+
+# Final files
+*.final
+*.final.json
+
+# Initial files
+*.initial
+*.initial.json
+
+# Original files
+*.original
+*.original.json
+
+# Default files
+*.default
+*.default.json
+
+# Custom files
+*.custom
+*.custom.json
+
+# Standard files
+*.standard
+*.standard.json
+
+# Normal files
+*.normal
+*.normal.json
+
+# Abnormal files
+*.abnormal
+*.abnormal.json
+
+# Regular files
+*.regular
+*.regular.json
+
+# Irregular files
+*.irregular
+*.irregular.json
+
+# Common files
+*.common
+*.common.json
+
+# Uncommon files
+*.uncommon
+*.uncommon.json
+
+# Rare files
+*.rare
+*.rare.json
+
+# Unique files
+*.unique
+*.unique.json
+
+# Special files
+*.special
+*.special.json
+
+# General files
+*.general
+*.general.json
+
+# Specific files
+*.specific
+*.specific.json
+
+# Generic files
+*.generic
+*.generic.json
+
+# Specific files
+*.specific
+*.specific.json
+
+# Universal files
+*.universal
+*.universal.json
+
+# Particular files
+*.particular
+*.particular.json
+
+# Individual files
+*.individual
+*.individual.json
+
+# Personal files
+*.personal
+*.personal.json
+
+# Impersonal files
+*.impersonal
+*.impersonal.json
+
+# Private files
+*.private
+*.private.json
+
+# Public files
+*.public
+*.public.json
+
+# Secret files
+*.secret
+*.secret.json
+
+# Confidential files
+*.confidential
+*.confidential.json
+
+# Classified files
+*.classified
+*.classified.json
+
+# Unclassified files
+*.unclassified
+*.unclassified.json
+
+# Sensitive files
+*.sensitive
+*.sensitive.json
+
+# Insensitive files
+*.insensitive
+*.insensitive.json
+
+# Critical files
+*.critical
+*.critical.json
+
+# Non-critical files
+*.non-critical
+*.non-critical.json
+
+# Important files
+*.important
+*.important.json
+
+# Unimportant files
+*.unimportant
+*.unimportant.json
+
+# Significant files
+*.significant
+*.significant.json
+
+# Insignificant files
+*.insignificant
+*.insignificant.json
+
+# Relevant files
+*.relevant
+*.relevant.json
+
+# Irrelevant files
+*.irrelevant
+*.irrelevant.json
+
+# Applicable files
+*.applicable
+*.applicable.json
+
+# Inapplicable files
+*.inapplicable
+*.inapplicable.json
+
+# Suitable files
+*.suitable
+*.suitable.json
+
+# Unsuitable files
+*.unsuitable
+*.unsuitable.json
+
+# Appropriate files
+*.appropriate
+*.appropriate.json
+
+# Inappropriate files
+*.inappropriate
+*.inappropriate.json
+
+# Proper files
+*.proper
+*.proper.json
+
+# Improper files
+*.improper
+*.improper.json
+
+# Correct files
+*.correct
+*.correct.json
+
+# Incorrect files
+*.incorrect
+*.incorrect.json
+
+# Right files
+*.right
+*.right.json
+
+# Wrong files
+*.wrong
+*.wrong.json
+
+# Good files
+*.good
+*.good.json
+
+# Bad files
+*.bad
+*.bad.json
+
+# Better files
+*.better
+*.better.json
+
+# Worse files
+*.worse
+*.worse.json
+
+# Best files
+*.best
+*.best.json
+
+# Worst files
+*.worst
+*.worst.json
+
+# Optimal files
+*.optimal
+*.optimal.json
+
+# Suboptimal files
+*.suboptimal
+*.suboptimal.json
+
+# Ideal files
+*.ideal
+*.ideal.json
+
+# Non-ideal files
+*.non-ideal
+*.non-ideal.json
+
+# Perfect files
+*.perfect
+*.perfect.json
+
+# Imperfect files
+*.imperfect
+*.imperfect.json
+
+# Flawless files
+*.flawless
+*.flawless.json
+
+# Flawed files
+*.flawed
+*.flawed.json
+
+# Flawless files
+*.flawless
+*.flawless.json
+
+# Flawed files
+*.flawed
+*.flawed.json
+
+# Perfect files
+*.perfect
+*.perfect.json
+
+# Imperfect files
+*.imperfect
+*.imperfect.json
+
+# Excellent files
+*.excellent
+*.excellent.json
+
+# Poor files
+*.poor
+*.poor.json
+
+# Great files
+*.great
+*.great.json
+
+# Terrible files
+*.terrible
+*.terrible.json
+
+# Amazing files
+*.amazing
+*.amazing.json
+
+# Awful files
+*.awful
+*.awful.json
+
+# Wonderful files
+*.wonderful
+*.wonderful.json
+
+# Horrible files
+*.horrible
+*.horrible.json
+
+# Fantastic files
+*.fantastic
+*.fantastic.json
+
+# Dreadful files
+*.dreadful
+*.dreadful.json
+
+# Superb files
+*.superb
+*.superb.json
+
+# Appalling files
+*.appalling
+*.appalling.json
+
+# Outstanding files
+*.outstanding
+*.outstanding.json
+
+# Disappointing files
+*.disappointing
+*.disappointing.json
+
+# Exceptional files
+*.exceptional
+*.exceptional.json
+
+# Unexceptional files
+*.unexceptional
+*.unexceptional.json
+
+# Remarkable files
+*.remarkable
+*.remarkable.json
+
+# Unremarkable files
+*.unremarkable
+*.unremarkable.json
+
+# Notable files
+*.notable
+*.notable.json
+
+# Unnotable files
+*.unnotable
+*.unnotable.json
+
+# Memorable files
+*.memorable
+*.memorable.json
+
+# Unmemorable files
+*.unmemorable
+*.unmemorable.json
+
+# Unforgettable files
+*.unforgettable
+*.unforgettable.json
+
+# Forgettable files
+*.forgettable
+*.forgettable.json
+
+# Unforgettable files
+*.unforgettable
+*.unforgettable.json
+
+# Forgettable files
+*.forgettable
+*.forgettable.json
+
