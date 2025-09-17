@@ -1,0 +1,71 @@
+{
+  "name": "@a2p-protocol/mcp-service",
+  "version": "1.0.0",
+  "description": "A2P Protocol MCP Service - Agent-to-Agent Communication on Solana Blockchain",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "mcp:simple": "ts-node src/SimpleA2PMCPServer.ts",
+    "test": "node test/test-simple.cjs",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "a2p",
+    "agent-to-protocol",
+    "solana",
+    "blockchain",
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "decentralized",
+    "communication",
+    "typescript",
+    "rpc"
+  ],
+  "author": "A2P Protocol Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kabrony/A2P_Solana.git"
+  },
+  "homepage": "https://github.com/kabrony/A2P_Solana#readme",
+  "bugs": {
+    "url": "https://github.com/kabrony/A2P_Solana/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@solana/web3.js": "^1.91.0",
+    "bs58": "^5.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.0",
+    "@types/bs58": "^4.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "typescript-json-schema": "^0.63.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "mcp": {
+    "server": {
+      "command": "node",
+      "args": ["dist/SimpleA2PMCPServer.js"],
+      "env": {
+        "A2P_NETWORK": "mainnet-beta",
+        "A2P_RPC_URL": "https://api.mainnet-beta.solana.com"
+      }
+    }
+  }
+}
